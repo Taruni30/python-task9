@@ -1,0 +1,26 @@
+2026-01-29 22:09:31,931 - INFO - Starting division operation
+2026-01-29 22:09:31,931 - INFO - Division successful
+2026-01-29 22:09:31,932 - INFO - Execution completed
+
+2026-01-29 22:09:31,932 - INFO - Starting division operation
+2026-01-29 22:09:31,932 - ERROR - Division by zero error
+Traceback (most recent call last):
+  File "C:\Users\Tarunika\OneDrive\New folder\python\errorhandling.py", line 17, in divide_numbers
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
+2026-01-29 22:09:31,934 - INFO - Execution completed
+
+2026-01-29 22:09:31,934 - INFO - Starting division operation
+2026-01-29 22:09:31,934 - ERROR - Invalid data type used
+Traceback (most recent call last):
+  File "C:\Users\Tarunika\OneDrive\New folder\python\errorhandling.py", line 15, in divide_numbers
+    if a < 0 or b < 0:
+                ^^^^^
+TypeError: '<' not supported between instances of 'str' and 'int'
+2026-01-29 22:09:31,938 - INFO - Execution completed
+
+2026-01-29 22:09:31,938 - INFO - Starting division operation
+2026-01-29 22:09:31,938 - WARNING - Negative numbers are not allowed
+2026-01-29 22:09:31,939 - INFO - Execution completed
+
